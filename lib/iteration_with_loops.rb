@@ -8,8 +8,8 @@ def find_even_values(array_of_array)
   arr_len = array_of_array.length
   while arr_len > i do 
     ii = 0
-    while array_of_array[i] > ii do
-      if array_of_array[i][ii] % 2 == 0 
+    while array_of_array[i].length > ii do
+      if (array_of_array[i][ii] % 2 == 0)
         puts array_of_array[i][ii]
       end
     ii += 1
