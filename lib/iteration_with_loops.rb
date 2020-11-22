@@ -11,6 +11,7 @@ def find_even_values(array_of_array)
     while array_of_array[i] > ii do
       if array_of_array[i][ii] % 2 == 0 
         puts array_of_array[i][ii]
+      end
     ii += 1
     end
     i += 1
