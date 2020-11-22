@@ -16,5 +16,5 @@ def find_even_values(array_of_array)
   end
   
 end
-
-find_even_values( [ [10, 11], [99, 50, 3, 4], [23, 41] ])
+array = [ [10, 11], [99, 50, 3, 4], [23, 41] ] 
+find_even_values(array)
