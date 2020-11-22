@@ -9,7 +9,8 @@ def find_even_values(array_of_array)
   while arr_len > i do 
     ii = 0
     while array_of_array[i] > ii do
-      puts array_of_array[i][ii]
+      if array_of_array[i][ii] % 2 == 0 
+        puts array_of_array[i][ii]
     ii += 1
     end
     i += 1
